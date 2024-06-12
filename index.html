@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+<title>Mi Primera Web</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1 > Mi Perfil </h1>
+<div >
+<img src="E:\Reyner\Nueva carpeta\Proyecto Personal\perfil.png" width="200"/>
+</div>
+<h2 > Mi primera web</h2>
+<div class="contenedor">
+<p>   Bienvenidos a mi experimento </p>
+</div>
+<a class="agrandar" href="https://www.instagram.com/reynergonzalezperez?igsh=eHdlZTNhc3A4cjFp"> Mi insta</a><br>
+<div class="contenedor">
+<button onclick="cambio()">Mira como cambia</button>
+<button onclick="espony()">Escoge un pony abajo</button>
+</div>
+
+<select id="caballos">
+ <option value="" selected disabled>Escoge un <span>Pony</span> aqui</option>
+ <option value="pony">Pony</option>
+ <option value="arabe">Arabe</option>
+ <option value="criollo">Criollo</option>
+</select>
+<br>
+<p id="pony" ></p>
+<script src="script.js"></script>
+</body>
+</html>
